@@ -22,7 +22,7 @@
                 <img src="./images/googlelogo.png" alt="googlelogo">
             </div>
             <div  class="search-bar">
-                <input id="src-inpt" type="text" placeholder="Enter curiosity">
+                <input type="text" placeholder="Enter curiosity" id="src-inpt">
             </div>
             <div class="search-btn">
                 <button onclick="birth()">Google Pretrazivanja</button>
@@ -54,10 +54,10 @@
         </div>
     </footer>
 <script>
-    var input = document.getElementById('src-inpt').value;
     function birth(){
+    var input = document.getElementById('src-inpt').value;
     if(input=="2704"){
-        document.write("Sretan rodjendan");
+        document.write("<h1>SRETAN RODENDAN</h1>");
     }
     }
 </script>
