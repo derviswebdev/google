@@ -8,4 +8,3 @@ TOP learning path - HTML&CSS project.
 
 I hope you like it
 
-Feel free to comment
