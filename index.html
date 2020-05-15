@@ -22,10 +22,10 @@
                 <img src="./images/googlelogo.png" alt="googlelogo">
             </div>
             <div  class="search-bar">
-                <input type="text" placeholder="Enter curiosity">
+                <input id="src-inpt" type="text" placeholder="Enter curiosity">
             </div>
             <div class="search-btn">
-                <button>Google Pretrazivanja</button>
+                <button onclick="birth()">Google Pretrazivanja</button>
                 <button>Prati me sreca</button>
             </div>  
             <div class="languages">
@@ -33,6 +33,34 @@
             </div>
         </div>
     </main>
-    <footer></footer>
+    <footer>
+        <div class="location">Bosnia and Hercegovina</div>
+        <div>
+            <section class="info">
+                <ul>
+                    <li><a href="#">Advertising | </a></li>
+                    <li><a href="#">Bussiness | </a></li>
+                    <li><a href="#">About | </a></li>
+                    <li><a href="#">How to search</a></li>
+                </ul>
+            </section>
+            <section class="rules">
+                <ul>
+                    <li><a href="#">Privacy | </a></li>
+                    <li><a href="#">Terms | </a></li>
+                    <li><a href="#">Settings</a></li>
+                </ul>
+            </section>
+        </div>
+    </footer>
+<script>
+    var input = document.getElementById('src-inpt').value;
+    function birth(){
+    if(input=="2704"){
+        document.write("Sretan rodjendan");
+    }
+    }
+</script>
+
 </body>
 </html>

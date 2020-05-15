@@ -33,13 +33,14 @@ header ul li button:hover{
     cursor: pointer;
 }
 .container{
-    height: 50vh;
+    height: 55vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 .search-bar{
+    margin-top: 35px;
 }
 .search-bar input{
     min-width: 500px;
@@ -49,17 +50,57 @@ header ul li button:hover{
     outline: none;
 }
 .search-btn{
-    margin: 50px;
+    margin: 25px;
 }
 .search-btn button{
-    border: 0.5px solid #cccccc;
+    border: 0px solid #cccccc;
     border-radius: 5px;
-    background-color: #F4F4F4;
+    color: #4f6d7a;
+    background-color: #e8eddf;
     padding: 10px 15px;
+    margin: 0 5px;
+    font-size: .9rem;
 }
 .languages p{
     font-size: .8rem;
 }
 .languages p a{
     text-decoration: none;
+}
+.location{
+   font-family: 1.2rem;
+   padding: 10px 15px 5px;
+   margin-left: 40px;
+}
+footer{
+    display: inline;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background-color: #ebebeb;
+    font-size: .8rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.info, .rules{
+    padding: 15px;
+}
+.info{
+    float: left;
+}
+.info ul li, .rules ul li{    
+    display: inline-block;
+}
+.info ul li a, .rules ul li a{
+    text-decoration: none;
+    color: #001233;
+}
+.info ul, .rules ul{    
+    margin: 0;
+}
+.rules{
+    float: right;
+}
+footer ul li{
+    list-style-type: none;
 }
