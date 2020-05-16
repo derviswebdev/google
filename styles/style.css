@@ -60,6 +60,12 @@ header ul li button:hover{
     padding: 10px 15px;
     margin: 0 5px;
     font-size: .9rem;
+    outline: none;
+}
+.search-btn button:hover{
+    cursor: pointer;
+    background-color: #d0d5c8;
+    color: #576574;
 }
 .languages p{
     font-size: .8rem;
