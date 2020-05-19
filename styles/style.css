@@ -41,6 +41,21 @@ header ul li button:hover{
 }
 .search-bar{
     margin-top: 35px;
+    padding: 0px 5px;
+    border-radius: 25px;
+    border: 1px solid #dfe4ea;
+}
+.fa-search{
+    color: #dfe4ea;
+    margin-left: 15px;
+}
+.fa-microphone{
+    color: #dfe4ea;
+    margin-right: 15px;
+}
+.fa:hover{
+    color: darkslategray;
+    cursor: pointer;
 }
 .search-bar input{
     min-width: 500px;
@@ -48,6 +63,7 @@ header ul li button:hover{
     padding: 12.5px 25px;
     border: 1px solid #cccccc;
     outline: none;
+    border: none;
 }
 .search-btn{
     margin: 25px;
